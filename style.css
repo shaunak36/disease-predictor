@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+#chat {
+  border: 1px solid #ddd;
+  padding: 12px;
+  height: 420px;
+  overflow-y: auto;
+  background: #fafafa;
+}
+.msg.user {
+  text-align: right;
+  color: #111;
+}
+.msg.ai {
+  text-align: left;
+  color: #000;
+}
+#therm {
+  height: 20px;
+  width: 100%;
+  background: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+#thermInner {
+  height: 100%;
+  width: 0%;
+  background: green;
+  transition: width .3s;
+}
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+}
+.disclaimer {
+  font-size: 13px;
+  color: #a00;
+}
